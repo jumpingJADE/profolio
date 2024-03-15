@@ -1,0 +1,138 @@
+:root {
+    font-size: 10px;
+    --color-nature: #13C2C2;
+    --color-lake: #1890FF;
+    --color-read: #59889A;
+    --corlor-font: #0A4251;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 35rem;
+    height: 60.3rem;
+    border-radius: 2rem;
+    border: 2px solid #D0D0D0;
+    background: #EAEAEA;
+    box-shadow: 1px 1px 5px 0px #504C4C, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    position: relative;
+}
+
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 33.3rem;
+    height: 26.3rem;
+    margin-top: 1.5rem;
+    border-radius: 1.3rem;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-left: 9px;
+    margin-right: 8px;
+}
+
+.btn {
+    width: 7.1rem;
+    height: 2.1rem;
+}
+
+.select {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 9px;
+}
+
+.btn.nature {
+    border-radius: 1.05rem;
+    background: #13C2C2;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.lake {
+    border-radius: 1.05rem;
+    background: #1890FF;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.mal {
+    font-size: 2.4rem;
+    color: #0A4251;
+}
+
+.text {
+    width: 33.3rem;
+    height: 15.3rem;
+    font-size: 1.769rem;
+    background: linear-gradient(0deg, #EAEAEA 0.27%, rgba(217, 217, 217, 0.00) 99.77%);
+    margin-top: 2.1rem;
+    margin-left: 9px;
+}
+
+.read {
+    width: 15.6rem;
+    height: 5.3rem;
+    border-radius: 5.7rem;
+    background: #59889A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explain {
+    margin-top: 2rem;
+    color: var(--corlor-font);
+    width: 33.3rem;
+    height: 15.3rem;
+}
+
+.read-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.shadow {
+    width: 33.3rem;
+    height: 15.3rem;
+    background: linear-gradient(0deg, #EAEAEA 0.27%, rgba(217, 217, 217, 0.00) 99.77%);
+    position: absolute;
+    top: 36rem;
+    margin-left: 9px;
+}
